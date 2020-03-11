@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PhoneCallActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_number"
+        android:hint="Enter Phone Number"
+        android:digits="1234567890"
+        android:maxLength="10"
+        android:inputType="phone"
+        />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/bt_call"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_call_black_24dp"
+        android:background="@drawable/bg_round"/>
+</LinearLayout>

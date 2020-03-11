@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Place"
+            android:id="@+id/search_from_place"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Place"
+            android:layout_marginTop="5dp"
+            android:id="@+id/search_to_place" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mapboxWhite"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/edtbtn"
+            android:text="Lets go"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

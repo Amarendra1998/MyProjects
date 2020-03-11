@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "845646146863",
+    "firebase_url": "https://totemic-creek-258810.firebaseio.com",
+    "project_id": "totemic-creek-258810",
+    "storage_bucket": "totemic-creek-258810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845646146863:android:fab158685749c68ad5c5da",
+        "android_client_info": {
+          "package_name": "com.example.helmet40"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845646146863-d7imtvahe80o1mbdakrhqabut0emu0e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.helmet40",
+            "certificate_hash": "5eb8a2b428d0ca164f56d0abe5507430b6f385d8"
+          }
+        },
+        {
+          "client_id": "845646146863-bjuuk52a1rqreao8re2abjfgagir3j6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEmhrGwEbogWPMbfeS5ngGUE-tOiwHcQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845646146863-bjuuk52a1rqreao8re2abjfgagir3j6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
